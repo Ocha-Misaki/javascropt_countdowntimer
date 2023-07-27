@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body{
+  background-color: #cae3f6;
+  margin: 42px auto;
+}
+.content{
+  background-color: white;
+  width: 320px;
+  margin: 10px auto ;
+  text-align: center;
+  padding: 1px 6px;
+}
+.timer{
+  margin: auto;
+  background-color: lightgray;
+  width: 90%;
+  height: 100px;
+}  
+p{
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px; 
+  line-height: 3.5;
+  margin: 16px;
+}
+button{
+  all: unset;
+  color: white;
+  background-color: #0a78b9;
+  text-align: center;
+  cursor: pointer;
+  margin: 16px 16px;
+  width: 90%;
+  height: 45px;
+}
+button:hover{
+  opacity: .8;
+}
+button:active{
+  box-shadow: 0 1px lightgray;
+  transform: translateY(3px);
+}
